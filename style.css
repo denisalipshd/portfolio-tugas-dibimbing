@@ -163,6 +163,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .contact .wrapper {
@@ -185,7 +186,7 @@ body {
   border: 1px solid #eeeeee56;
   outline: none;
   color: #ffffff4f;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-family: "Poppins", serif;
 }
 
@@ -203,9 +204,10 @@ body {
   background: #0d0d0d;
   border: 1px solid #6e04d1;
   color: #ffffff4f;
-  padding: 10px 20px;
+  padding: 12px 20px;
   cursor: pointer;
   transition: 0.3s ease;
+  font-family: "Poppins", serif;
 }
 
 .contact .btn-contact:hover {
@@ -298,6 +300,10 @@ body {
   text-align: start;
   max-width: 300px;
   width: 100%;
+}
+
+.subs .logo {
+  margin-bottom: 20px;
 }
 
 .subs form {
